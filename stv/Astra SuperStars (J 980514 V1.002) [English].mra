@@ -1,0 +1,52 @@
+<misterromdescription>
+	<rbf>ST-V</rbf>
+	<setname>astrass</setname>
+	<mameversion>277</mameversion>
+	<description>Astra SuperStars (J 980514 V1.002) [English]</description>
+	<rotation>horizontal</rotation>
+	<year>1998</year>
+	<manufacturer>Sunsoft</manufacturer>
+	<buttons names="Light Punch,Medium Punch,Heavy Punch,Light Kick,Medium Kick,Heavy Kick,Start,Coin,Service,Test" default="A,B,X,Y,L,R,Start,Select" />
+	<rom index="0">
+		<part>11 </part>
+	</rom>
+	<rom index="1" md5="" zip="astrassu.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
+		<interleave output="64">
+			<part crc="f688ae60" name="epr-23603.ic8" map="21436587" />
+		</interleave>
+	</rom>
+	<rom index="3" md5="" zip="astrassu.zip" address="0x34000000">
+		<interleave output="64">
+			<part crc="6e15b279" name="epr20825.13" map="1357" />
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="64">
+			<part crc="56d140ab" name="mpr20827.2" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="75e14739" name="mpr20828.3" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="dfacfed1" name="mpr20829.4" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="7946f495" name="mpr20830.5" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="144664f4" name="mpr20831.6" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="9fe2eaad" name="mpr20826.1" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="af1b0985" name="mpr20832.8" map="12345678" />
+		</interleave>
+		<interleave output="64">
+			<part crc="cb6af231" name="mpr20833.9" map="12345678" />
+		</interleave>
+	</rom>
+	<nvram index="4" size="65664" />
+</misterromdescription>
