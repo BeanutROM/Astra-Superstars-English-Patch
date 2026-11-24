@@ -5,7 +5,7 @@ You need your own Japanese game bin/cue or mame rom zip set as no game files or 
 
 This was translated with the assistance of OpenAI Codex. The text was reviewed and edited by a human where necessary.
 
-All dialog text and UI has been translated.
+All text is translated in every screen, from the opening attract sequence to the final stories of each character -- except for the staff credits, I do not translate credit text.
 
 This has been tested on Ymir and MiSTerFPGA Saturn and ST-V cores.
 
@@ -21,12 +21,26 @@ Apply the xdelta patch to its matching original bin file
     2. Place your **astrass.zip** archive into this directory.
     3. Run **patch_stv.py** to create **astrassu.zip** in this directory
 
+Q: Why a python script? I don't know what python is, and I can't run this!
+A: You can patch manually with xdelta, you don't need this. It's also open source, and can be very easily audited to ensure it contains no malicious code.
+
 ## Source
 Astra Superstars (Japan) (Track 1).bin
 
 MD5 a8ca967f4cae449e8f1e32a65fb2d020
 
 SHA1 929b608b3f8a9cf29e31c2e4590f386f1669f247
+
+## Updates
+
+- v2.0
+  The previous release was absolute turbo garbage, and I apoligize for it. It should never have been released.
+  - Fixed real hardware boot issue
+  - Completed the Translation of all assets.
+  - Fixed 2 graphical corruption issues, on the VS Player Selection Screen, and when fighting Sakamoto or My Devil.
+
+- v1.0
+  Initial, very broken release. Do not use.
 
 ## Support
 

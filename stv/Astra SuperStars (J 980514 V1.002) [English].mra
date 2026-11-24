@@ -20,26 +20,26 @@
 	</rom>
 	<rom index="3" md5="" zip="astrassu.zip" address="0x34000000">
 		<interleave output="64">
-			<part crc="6e15b279" name="epr20825.13" map="1357" />
+			<part crc="f7b2ecc0" name="epr20825.13" map="1357" />
 		</interleave>
 		<part repeat="0x200000">00</part>
 		<interleave output="64">
-			<part crc="56d140ab" name="mpr20827.2" map="12345678" />
+			<part crc="e60c17d5" name="mpr20827.2" map="12345678" />
 		</interleave>
 		<interleave output="64">
-			<part crc="75e14739" name="mpr20828.3" map="12345678" />
+			<part crc="a56991c7" name="mpr20828.3" map="12345678" />
 		</interleave>
 		<interleave output="64">
-			<part crc="dfacfed1" name="mpr20829.4" map="12345678" />
+			<part crc="bea8a3d9" name="mpr20829.4" map="12345678" />
 		</interleave>
 		<interleave output="64">
-			<part crc="7946f495" name="mpr20830.5" map="12345678" />
+			<part crc="adb52fd4" name="mpr20830.5" map="12345678" />
 		</interleave>
 		<interleave output="64">
-			<part crc="144664f4" name="mpr20831.6" map="12345678" />
+			<part crc="2dc3222d" name="mpr20831.6" map="12345678" />
 		</interleave>
 		<interleave output="64">
-			<part crc="9fe2eaad" name="mpr20826.1" map="12345678" />
+			<part crc="55ed19df" name="mpr20826.1" map="12345678" />
 		</interleave>
 		<interleave output="64">
 			<part crc="af1b0985" name="mpr20832.8" map="12345678" />
