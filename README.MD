@@ -22,6 +22,7 @@ Apply the xdelta patch to its matching original bin file
     3. Run **patch_stv.py** to create **astrassu.zip** in this directory
 
 Q: Why a python script? I don't know what python is, and I can't run this!
+
 A: You can patch manually with xdelta, you don't need this. It's also open source, and can be very easily audited to ensure it contains no malicious code.
 
 ## Source
